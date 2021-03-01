@@ -1,0 +1,38 @@
+/* standards */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
+}
+    
+
+.clearfix::after{
+    display: table;
+	content: '';
+	clear: both;
+}
+/* standards */
+
+.container {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.top-bar{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+    
+
+
+
+header,main,footer{
+    background-color: rgb(173,216,230);
+}
