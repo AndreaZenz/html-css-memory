@@ -30,9 +30,77 @@ h1{
     font-size: 50px;
 }
     
-
-
-
 header,main,footer{
     background-color: rgb(173,216,230);
 }
+
+/* .h-1000{
+    height: 1000px;
+} */
+
+.mar-30{
+    margin: 30px;
+}
+
+.box{
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+}
+    
+.bg-white{
+    background-color: white;
+    border-radius: 15px;
+}
+    
+.pos-abs{
+    position: absolute;
+}
+    
+.pos-rel{
+    position: relative;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+.hoverable:hover .hide{
+    display: inline-block;
+}  
+  
+
+.img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+    
+.definition{
+    color: pink;
+    font-size:x-large;
+    text-align: center;
+    line-height: 50px;
+}
+
+.hoverable{
+    background-image: url(img/pattern.png);
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-size: contain;
+}
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+    
