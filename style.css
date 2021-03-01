@@ -14,6 +14,29 @@
 }
 /* standards */
 
+/* general tags */
+.bg-white{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.pos-abs{
+    position: absolute;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.hide{
+    display: none;
+}
+
+.hoverable:hover .hide{
+    display: inline-block;
+}  
+/* general tags */
+
 .container {
 	max-width: 70%;
 	margin: 0 auto;
@@ -29,17 +52,9 @@ h1{
     color: white;
     font-size: 50px;
 }
-    
+
 header,main,footer{
     background-color: rgb(173,216,230);
-}
-
-/* .h-1000{
-    height: 1000px;
-} */
-
-.mar-30{
-    margin: 30px;
 }
 
 .box{
@@ -47,40 +62,21 @@ header,main,footer{
     height: 300px;
     display: inline-block;
 }
-    
-.bg-white{
-    background-color: white;
-    border-radius: 15px;
-}
-    
-.pos-abs{
-    position: absolute;
-}
-    
-.pos-rel{
-    position: relative;
+
+.mar-30{
+    margin: 30px;
 }
 
-
-
-.hide{
-    display: none;
-}
-
-.hoverable:hover .hide{
-    display: inline-block;
-}  
-  
 
 .img{
     width: 250px;
     height: 250px;
     object-fit: contain;
 }
-    
+
 .definition{
     color: pink;
-    font-size:x-large;
+    font-size: x-large;
     text-align: center;
     line-height: 50px;
 }
@@ -92,15 +88,7 @@ header,main,footer{
     border-radius: 15px;
     background-size: contain;
 }
-    
-    
-    
-    
-    
-    
-    
 
-
-
-
-    
+/* .h-1000{
+    height: 1000px;
+} */
